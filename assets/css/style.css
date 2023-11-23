@@ -75,7 +75,7 @@ footer {
     background-color: orange;
 }
 /*Media Query>tablets and larger (768px and up)*/
-@media screen and (min-width:768px) {
+@media screen and (min-width:px) {
 /*Header*/
 nav{display:block;
 position:relative;
@@ -92,3 +92,12 @@ padding-right: 1rem;}
 line-height:75px;
 margin:0 0.5rem;
 }
+
+
+/*Large screens laptops 992px and larger (px and up)*/
+@media screen and (min-width:992px)
+{ menu > a:hover{ 
+    
+ border-bottom:1px solid #3a3a3a;
+
+}}
