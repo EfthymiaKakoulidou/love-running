@@ -39,6 +39,9 @@ h1 {font-family:"Oswald", sans-serif;
 text-transform: uppercase;
 initial-letter: 2px;
 color: #252525;}
+#menu {font-size: large;
+letter-spacing: 4px;
+list-style-type: none;}
 
 /*Main Content*/
 main {
