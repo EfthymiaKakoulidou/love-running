@@ -162,8 +162,18 @@ margin:0 0.5rem;
 right:50px;
 }
 
+/*Reasons section*/
+#benefits-physical, 
+#benefits-mental { display:flex;
+flex-direction:column;
+width:100%}
 
+#benefits-physical > div, 
+#benefits-mental >div { 
+width:75%}
 
+#benefits-mental >div {text-align: end;
+align-self: flex-end;}
 
 /*Large screens laptops 992px and larger (px and up)*/
 @media screen and (min-width:992px)
@@ -172,3 +182,18 @@ right:50px;
  border-bottom:1px solid #3a3a3a;
 
 }}
+
+/*Large screens  1200px and larger (px and up)*/
+@media screen and (min-width:1200px){
+#benefits {
+    display:flex;
+    flex-direction: row;}
+    #benefits>div {flex:1;}
+    #benefits-image{order:0;}
+    #benefits-physical > div{align-items: flex-end;}
+    #benefits-mental > div{align-self: flex-start;}
+    #benefits-mental{order:1;}
+    
+    
+}
+
