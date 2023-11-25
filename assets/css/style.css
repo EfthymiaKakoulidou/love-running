@@ -104,7 +104,7 @@ main {
 #hero {
     size: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no repeat center center/cover;
+    background-image: url("../images/hero-image.webp") no repeat center center/cover;
     position: relative;
 }
 
@@ -153,7 +153,7 @@ hr {
 #circle-cover-bg {
     height: 90vw;
     width: 90vw;
-    background: url("../images/reasons-image.webp") no repeat top center/cover;
+    background-image: url("../images/reasons-image.webp") no repeat top center/cover;
     margin-bottom: 20px;
     /*Make the square a circle*/
     border-radius: 50%;
@@ -170,7 +170,7 @@ hr {
 }
 
 #times {
-    background: url("../images/reasons-image.webp") no repeat center/cover;
+    background-image: url("../images/reasons-image.webp") no repeat center/cover;
 
     /*Handles responsivity without the need of a media query*/
     display: flex;
