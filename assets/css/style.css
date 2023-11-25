@@ -193,6 +193,15 @@ Each div will  expand to take the availlable space on its row*/
 
 #times h3 {color: #fafafa;}
 
+/*Gallery Page*/
+#photos img {
+    width:100%;
+    line-height: 1em;
+}
+#photos {
+    line-height: 0;
+}
+
 
 /*Footer*/
 #social-networks {
