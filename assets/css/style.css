@@ -7,7 +7,7 @@
 * {
     padding: 0;
     margin: 0%;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 
 /*General styles*/
@@ -27,7 +27,7 @@ h2,
 h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    initial-letter: 2px;
+    initial-letter: normal;
     color: #252525;
 }
 
@@ -145,9 +145,9 @@ main {
 
 /*Hero section styles*/
 #hero {
-    size: 600px;
+    font-size: 600px;
     width: 100%;
-    background-image: url("../images/hero-image.webp") no repeat center center/cover;
+    background: url("../images/hero-image.webp") no repeat center center/cover;
     position: relative;
 }
 
@@ -196,7 +196,7 @@ hr {
 #circle-cover-bg {
     height: 90vw;
     width: 90vw;
-    background-image: url("../images/reasons-image.webp") no repeat top center/cover;
+    background: url("../images/reasons-image.webp") no repeat top center/cover;
     margin-bottom: 20px;
     /*Make the square a circle*/
     border-radius: 50%;
@@ -213,7 +213,7 @@ hr {
 }
 
 #times {
-    background-image: url("../images/reasons-image.webp") no repeat center/cover;
+    background: url("../images/reasons-image.webp") no repeat center/cover;
 
     /*Handles responsivity without the need of a media query*/
     display: flex;
@@ -265,7 +265,7 @@ Each div will  expand to take the availlable space on its row*/
 }
 
 /*Media Query>tablets and larger (768px and up)*/
-@media screen and (min-width:px) {
+@media screen and (min-width:768px) {
 
     /*Header*/
     nav {
@@ -351,7 +351,7 @@ Each div will  expand to take the availlable space on its row*/
     }
 
 }
-}
+
 
 
 /*Large screens laptops 992px and larger (px and up)*/
