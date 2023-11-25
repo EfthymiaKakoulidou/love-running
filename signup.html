@@ -35,7 +35,38 @@
     </header>
 
     <!--Main-->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+
+                <br>
+                <label for="fname"></label>
+                <input id="fname" class="text-input" name="fname" required>
+                <br>
+                <label for="lname"></label>
+                <input id="lname" class="text-input" name="lname" required>
+                <br>
+                <label for="email"></label>
+                <input id="email" class="text-input" name="email" required>
+                <div id="radio-buttons">
+                    <label for="road">Road</label>
+                    <input id="road" type="radio" required checked name="running-preference" value="road">
+                    <br>
+                    <label for="trail">Trail</label>
+                    <input id="trail" type="radio" required name="running-preference" value="trail">
+                    <br>
+                    <label for="both">Both</label>
+                    <input id="both" type="radio" required name="running-preference" value="both">
+
+                    <button class="join/button" type="submit">Let's run</button>
+
+
+                </div>
+            </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
@@ -43,11 +74,12 @@
                     aria-label="visit our facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="visit our instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-        </li>
+                    aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
         </ul>
     </footer>
     <!--Font Awsome KIt-->
